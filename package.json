@@ -1,0 +1,30 @@
+{
+  "name": "jx3-dps-rank-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run server",
+    "server": "node dist/index.js",
+    "watch": "tsc -w",
+    "build": "rollup -c config/rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@koa/router": "^10.1.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "koa": "^2.13.1",
+    "koa-static": "^5.0.0",
+    "nodemon": "^2.0.12",
+    "rollup": "^2.56.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
