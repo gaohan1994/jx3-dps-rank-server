@@ -40,7 +40,7 @@ module.exports = {
      * rollup 解析 commonjs 语法的 import export
      * @param rollupCommonJsPlugin
      */
-    // rollupCommonJsPlugin(),
+    rollupCommonJsPlugin(),
     /**
      * babel 转义
      * @param rollupBabel
